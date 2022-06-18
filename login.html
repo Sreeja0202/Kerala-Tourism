@@ -18,14 +18,41 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="home.html"><b>HOME</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="districts.html"><b>DISTRICTS</b></a>
+              </li>
+            </ul>
+            </div>
+            <div class="text-right me-5">
+              <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"><i class="bi bi-telephone-fill"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active"><i class="bi bi-envelope"></i></a>
+                  </li>
+                  <li>
+                      <a class="nav-link active"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                      <a class="nav-link active"><i class="bi bi-whatsapp"></i></a>
+                  </li>
+                </ul>
+          </div>
         </div>
+        
       </nav>
 <!-- navbar ends here -->
 
 <!-- login form starts here -->
  <div class="text-center">
     <form style="max-width:480px; margin:auto;";>
-        <img src="./Images/keralatourismlogo.png" width="100px" height="70px" class="mt-4">
+        <img src="./Images/keralatourismlogo.png" width="120px" height="100px" class="mt-4">
         <h3 class="mt-4 mb-4 font-weight-normal text-dark">Please Sign In</h3>
 <label for="emailaddress" class="sr-only"></label>
     <input type="email" id="emailaddress" class="form-control" placeholder="Email Address" required autofocus>
@@ -34,30 +61,36 @@
     <div class="checkbox">
         <label>
             <input type="checkbox"
-            value="remember me"><small class="text-dark">Remember me</small></label>
+            value="remember me"><small class="text-dark"> Remember me</small></label>
     </div>
-    <div class="mt-3">
+    <div class="mt-3 text-center">
         <button class="btn btn-lg btn-primary">Sign In</button>
     </div>
 </form>
 <br>
  </div>
         
-<div class="container text-center"max-width="480px">
+<div class="container text-center w-80">
     <div class="row">
-        <div class="col-4">
-            <a href="index.html"><h5 class="text-dark">Back to Home Page</h5></a>
+        <div class="col-4" max-width:450px>
+            <a href="index.html"><small class="text-primary"><b>Back to Home Page</b></small></a>
          </div>
         
          <div class="col-4">
-        <h5 class=><a href="#" class="text-dark">Forgot Password?</a></h5>
+        <small class=><a href="#" class="text-primary"><b>Forgot Password?</b></a></small>
          </div>
          <div class="col-4">
-            <h5 class="text-dark">Need an Account? <a href="registratio.html"  class="text-dark">Sign Up</a></h5>
+            <small class="text-primary"><b>Need an Account? </b><a href="registratio.html"  class="text-primary"><b>Sign Up</b></a></small>
         </div>
     </div>
 </div> 
 
+<footer style="margin-top: 175px;"><div class="text-center bg-dark mt-6">
+    <medium class="text-light">For Business/Trade/Classifications and Tenders please visit</medium>
+    <br>
+    <small class="text-light">www.keralatourism.gov.in</small>
+  </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.js"></script>
     </body>
